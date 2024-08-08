@@ -21,35 +21,35 @@ As you can see from the [Project instructions][1], there are 4 sections:
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked lists
 4.  **Personal Functions:** Functions I find useful.
 
-Libc functions | Additional functions | Bonus Functions | Personal Functions
-:----------- | :-----------: | :-----------: | -----------:
-memset		| ft_memalloc	| ft_lstnew		| ft_count_words
-bzero		| ft_memdel		| ft_lstdelone	| ft_print_memory
-memcpy		| ft_strnew		| ft_lstdel		| ft_islower    
-memccpy		| ft_strdel		| ft_lstadd		| ft_isupper    
-memmove		| ft_strclr		| ft_lstiter	| ft_strndup    
-memchr		| ft_striter	| ft_lstmap		| ft_lst_add_back.c
-memcmp		| ft_striteri	|				| ft_strcjoin.c
-strlen		| ft_strmap		|				| ft_printjoin.c
-strdup		| ft_strmapi	|				| ft_atof.c
-strcpy		| ft_strequ		|				|
-strncpy		| ft_strnequ	|				|
-strcat		| ft_strsub		|				|
-strlcat		| ft_strjoin	|				|
-strchr		| ft_strtrim	|				|
-strrchr		| ft_strsplit	|				|
-strstr		| ft_itoa		|				|
-strnstr		| ft_putchar	|				|
-strcmp		| ft_putstr		|				|
-strncmp		| ft_putendl	|				|
-atoi		| ft_putnbr		|				|
-isalpha		| ft_putchar_fd	|				|
-isdigit		| ft_putstr_fd	|				|
-isalnum		| ft_putendl_fd	|				|
-isascii		| ft_putnbr_fd	|				|
-isprint		|				| 				|
-toupper		|				| 				|
-tolower		|				| 				|
+Libc functions | Additional functions | Bonus Functions
+:----------- | :-----------: | :-----------: 
+memset		| ft_memalloc	| ft_lstnew
+bzero		| ft_memdel	| ft_lstdelone
+memcpy		| ft_strnew	| ft_lstdel
+memccpy		| ft_strdel	| ft_lstadd   
+memmove		| ft_strclr	| ft_lstiter
+memchr		| ft_striter	| ft_lstmap
+memcmp		| ft_striteri	|
+strlen		| ft_strmap	|
+strdup		| ft_strmapi	|
+strcpy		| ft_strequ	|
+strncpy		| ft_strnequ	|
+strcat		| ft_strsub	|
+strlcat		| ft_strjoin	|
+strchr		| ft_strtrim	|
+strrchr		| ft_strsplit	|
+strstr		| ft_itoa	|
+strnstr		| ft_putchar	|
+strcmp		| ft_putstr	|
+strncmp		| ft_putendl	|
+atoi		| ft_putnbr	|
+isalpha		| ft_putchar_fd	|
+isdigit		| ft_putstr_fd	|
+isalnum		| ft_putendl_fd	|
+isascii		| ft_putnbr_fd	|
+isprint		|		|
+toupper		|		|
+tolower		|		|
 
 Notes:
 
