@@ -83,6 +83,6 @@ That's it. Now run it using `./example.out`
 
 Hope this was useful.
 
-[1]: https://github.com/Matt-Hurd/42-libft/blob/master/libft.en.pdf "Libft PDF"
+[1]: https://github.com/obluda2173/Libft.h/blob/main/libft.pdf "libft.pdf"
 [2]: http://42.us.org "42 USA"
 [3]: https://github.com/R4meau/ "R4meau's Github"
