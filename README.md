@@ -14,12 +14,11 @@ We re-create these functions in order to deepen our understanding of C. The gene
 
 ### What's it do?
 
-As you can see from the [Project instructions][1], there are 4 sections:
+As you can see from the [Project instructions][1], there are 3 sections:
 
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Additional functions:** Functions 42 deems will be useful for later projects
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked lists
-4.  **Personal Functions:** Functions I find useful.
 
 Libc functions | Additional functions | Bonus Functions
 :----------- | :-----------: | :-----------: 
@@ -62,8 +61,8 @@ The goal is to create a library called libft.a from the source files so I can la
 
 To create that library, after downloading/cloning this project, **cd** into the project and call make:
 
-	git clone https://github.com/Matt-Hurd/42-libft
-	cd libft
+	git clone https://github.com/obluda2173/Libft.h.git
+	cd libft.h
 	make
 
 You should see a *libft.a* file and some object files (.o).
@@ -82,16 +81,7 @@ When compiling, you have to tell the file where your library resides and which l
 
 That's it. Now run it using `./example.out`
 
-## Example usage
-
-This is a list of my projects that use Libft extensively:
-
-* [get_next_line](https://github.com/Matt-Hurd/42-gnl)
-
-
-### How did you make this sick README?
-
-It was **heavily** inspired by my friend [R4meau][3].
+Hope this was useful.
 
 [1]: https://github.com/Matt-Hurd/42-libft/blob/master/libft.en.pdf "Libft PDF"
 [2]: http://42.us.org "42 USA"
