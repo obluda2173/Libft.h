@@ -1,18 +1,12 @@
 # Libft.h - erian
 Welcome to libft, a custom C library that serves as a foundation for various 42 projects.
-## TOC
-- [What is libft?](#what-is-libft)
-- [What's in it?](#whats-in-it)
-- [How does it work?](#how-does-it-work)
-- [How do I use the library?](#how-do-i-use-the-library)
-- [Example usage](#example-usage)
 
 ### What is libft?
 [Libft][1] is an individual project at [42][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
 We re-create these functions in order to deepen our understanding of C. The general philosophy of 42 is that it's best to fully understand that machine that you're using and how it all works together. As a result, we avoid treating even these basic functions as black-boxes.
 
-### What's it do?
+### What's in it?
 
 As you can see from the [Project instructions][1], there are 3 sections:
 
@@ -45,40 +39,15 @@ ft_atoi.c	| 	|
 ft_calloc.c	| 	|
 ft_strdup.c	| 	|
 
-### How does it work?
 
-The goal is to create a library called libft.a from the source files so I can later use that library from other projects at 42.
-
-To create that library, after downloading/cloning this project, **cd** into the project and call make:
-
-	git clone https://github.com/obluda2173/Libft.h.git
-	cd libft.h
-	make
-
-You should see a *libft.a* file and some object files (.o).
-
-
-Now to clean up (removing the .o files), call `make clean`
-
-### How do I use the library?
-
-When compiling, you have to tell the file where your library resides and which library it is using:
-
-`gcc -L. -lft -o example.out example.c`
-
--L takes the path to your library. `.` in this case<br>
--l takes the name of your library. This is the set of characters that come after `lib` in your library name.
-
-That's it. Now run it using `./example.out`
 
 Hope this was useful.
 
-###Inspiration:
+### Inspirations:
 - [Description][3]
 - [Tests][4]
 - [Comparison (with bonuses)][5]
 - [Readme greates inspiration][6]
-
 
 [1]: https://github.com/obluda2173/Libft.h/blob/main/libft.pdf "libft.pdf"
 [2]: https://42.fr/en/homepage/
